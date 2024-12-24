@@ -14,19 +14,30 @@ To build the Go application, use the following command:
 
 ```bash
 go build -o testFile main.go
+```
 
+This will compile the `main.go` file and generate an executable file named `testFile`.
 
-### Run the Application 
+### Run the Application
+
+Once the build is complete, you can run the application using the following command:
 
 ```bash
 ./testFile
+```
 
+### Check the Result
 
-Check the result with 
+You can check the result by accessing the application locally using either of the following methods:
 
 ```bash
 curl http://localhost:8080
+```
 
-or 
+or simply by navigating to:
 
-localhost:8080
+```
+http://localhost:8080
+```
+
+This should display the result of your Go application running locally on port 8080.
